@@ -12,6 +12,6 @@ else:
 
 if safe == True:
     import ahmiascraper
-    ahmiascraper.Scraper
+    ahmiascraper.Scraper()
 else:
     print("IP change failed, try again later.")
