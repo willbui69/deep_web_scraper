@@ -10,6 +10,7 @@ def Scraper():
 
     url = "https://ahmia.fi/search/?q={}".format(yourquery)
     #print(url)
+    
 
     #lets set up some fake user agents
     ua_list = ["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19577"
